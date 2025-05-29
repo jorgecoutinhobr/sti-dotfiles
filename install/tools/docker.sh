@@ -12,8 +12,8 @@ sudo usermod -aG docker ${USER}
 # Limit log size to avoid running out of disk
 echo '{"log-driver":"json-file","log-opts":{"max-size":"10m","max-file":"5"}}' | sudo tee /etc/docker/daemon.json
 
-sudo systemctl daemon-reload
-sudo systemctl enable docker.service
-sudo systemctl enable docker.socket
-sudo systemctl start docker.socket
-sudo systemctl start docker.service
+# sudo systemctl daemon-reload
+# sudo systemctl enable docker.service
+# sudo systemctl enable docker.socket
+# sudo systemctl start docker.socket
+# sudo systemctl start docker.service
