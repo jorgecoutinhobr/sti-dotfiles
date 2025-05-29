@@ -1,0 +1,4 @@
+source ~/.local/share/sti-dotfiles/install/config/bash/rc
+
+# export EDITOR="code"
+# export SUDO_EDITOR="$EDITOR"

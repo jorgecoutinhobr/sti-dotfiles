@@ -1,0 +1,4 @@
+source ~/.local/share/sti-dotfiles/install/config/bash/shell
+source ~/.local/share/sti-dotfiles/install/config/bash/aliases
+source ~/.local/share/sti-dotfiles/install/config/bash/prompt
+source ~/.local/share/sti-dotfiles/install/config/bash/init
